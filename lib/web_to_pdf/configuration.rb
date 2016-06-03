@@ -6,7 +6,7 @@ module WebToPdf
     @base_uri = 'https://webtopdf.expeditedaddons.com'
 
     # Your API Key
-    @api_key = 'TODO: Replace'
+    @api_key = ENV['WEBTOPDF_API_KEY']
 
     # create the getters and setters
     class << self
